@@ -28,8 +28,8 @@ ingredients_list = st.multiselect (
 
 # Convert the Snowpark Dataframe to a Panda Dataframe so we can use the LOC function
 pd_df=my_dataframe.to_pandas()
-st.dataframe(pd_df)
-st.stop()
+#st.dataframe(pd_df)
+#st.stop()
 
 
 if ingredients_list:
